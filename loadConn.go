@@ -41,7 +41,7 @@ type ChildSAConf struct {
 	ReplayWindow  string   `json:"replay_window,omitempty"`
 	Mode          string   `json:"mode"`
 	InstallPolicy string   `json:"policies"`
-	UpDown        string   `json:"updown,omitempty"`
+	Updown        string   `json:"updown"`
 	Priority      string   `json:"priority,omitempty"`
 }
 
