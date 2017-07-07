@@ -40,7 +40,7 @@ type ChildSAConf struct {
 	RekeyTime     string   `json:"rekey_time"`
 	Mode          string   `json:"mode"`
 	InstallPolicy string   `json:"policies"`
-	UpDown        string   `json:"updown,omitempty"`
+	Updown        string   `json:"updown"`
 	Priority      string   `json:"priority,omitempty"`
 }
 
